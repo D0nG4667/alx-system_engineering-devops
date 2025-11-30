@@ -104,6 +104,24 @@ $ . ./3-paths
 11
 ```
 
+## Task 4: Global variables
+
+**File:** `4-global_variables`
+
+### Task 4: Description
+
+Script that lists all environment variables.
+
+### Task 4: Example
+
+```bash
+$ source ./4-global_variables
+HOME=/home/julien
+PATH=/usr/local/bin:/usr/bin:/bin
+LOGNAME=julien
+...
+```
+
 ### Notes
 
 - This task is purely educational, showing how aliases can override existing commands.
