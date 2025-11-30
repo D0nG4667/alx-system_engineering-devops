@@ -140,6 +140,25 @@ $ echo $BEST
 School
 ```
 
+## Task 7: Global variable
+
+**File:** `7-create_global_variable`
+
+### ask 7: Description
+
+Script that creates a new global variable named `BEST` with the value `School`.
+
+### ask 7: Example
+
+```bash
+$ source ./7-create_global_variable
+$ echo $BEST
+School
+$ env | grep BEST
+BEST=School
+```
+
+
 ### Notes
 
 - This task is purely educational, showing how aliases can override existing commands.
