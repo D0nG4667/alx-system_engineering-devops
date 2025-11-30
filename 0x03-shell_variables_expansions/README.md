@@ -89,6 +89,21 @@ $ echo $PATH
 ...:/action
 ```
 
+## Task 3: If the path be beautiful, let us not ask where it leads
+
+**File:** `3-paths`
+
+### Task 3: Description
+
+Script that counts the number of directories in the `PATH`.
+
+### Task 3: Example
+
+```bash
+$ . ./3-paths
+11
+```
+
 ### Notes
 
 - This task is purely educational, showing how aliases can override existing commands.
