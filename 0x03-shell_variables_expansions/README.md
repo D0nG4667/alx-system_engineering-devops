@@ -174,6 +174,23 @@ $ ./8-true_knowledge
 1337
 ```
 
+## Task 9: Divide and rule
+
+**File:** `9-divide_and_rule`
+
+### Task 9: Description
+
+Script that prints the result of dividing the value stored in the environment variable `POWER` by the value stored in the environment variable `DIVIDE`.
+
+### Task 9: Example
+
+```bash
+$ export POWER=42784
+$ export DIVIDE=32
+$ ./9-divide_and_rule
+1337
+```
+
 ### Notes
 
 - This task is purely educational, showing how aliases can override existing commands.
