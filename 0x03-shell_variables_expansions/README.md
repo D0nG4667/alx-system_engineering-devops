@@ -235,6 +235,30 @@ or
 os
 ```
 
+## Task 13: Floats
+
+**File:** `13-print_float`
+
+### Task 13: Description
+
+Script that prints the value stored in the environment variable `NUM` with two decimal places.
+
+### Task 13: Example
+
+```bash
+$ export NUM=0
+$ ./13-print_float
+0.00
+
+$ export NUM=98
+$ ./13-print_float
+98.00
+
+$ export NUM=3.14159265359
+$ ./13-print_float
+3.14
+```
+
 ### Notes
 
 - This task is purely educational, showing how aliases can override existing commands.
