@@ -158,6 +158,21 @@ $ env | grep BEST
 BEST=School
 ```
 
+## Task 8: Every addition to true knowledge is an addition to human power
+
+**File:** `8-true_knowledge`
+
+### Task 8: Description
+
+Script that prints the result of adding 128 to the value stored in the environment variable `TRUEKNOWLEDGE`.
+
+### Task 8: Example
+
+```bash
+$ export TRUEKNOWLEDGE=1209
+$ ./8-true_knowledge
+1337
+```
 
 ### Notes
 
