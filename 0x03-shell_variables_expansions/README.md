@@ -70,7 +70,24 @@ Script that prints `hello user`, where `user` is the current Linux user.
 ```bash
 $ ./1-hello_you
 hello julien
+```
 
+## Task 2: The path to success is to take massive, determined action
+
+**File:** `2-path`
+
+### Task 2: Description
+
+Script that adds `/action` to the `PATH`.  
+`/action` becomes the last directory the shell searches when looking for a program.
+
+### Task 2: Example
+
+```bash
+$ source ./2-path
+$ echo $PATH
+...:/action
+```
 
 ### Notes
 
