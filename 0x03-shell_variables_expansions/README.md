@@ -57,6 +57,21 @@ julien@ubuntu:/tmp/0x03$ \ls
 0-alias
 ```
 
+## Task 1: Hello you
+
+**File:** `1-hello_you`
+
+### Task 1: Description
+
+Script that prints `hello user`, where `user` is the current Linux user.
+
+### Task 1: Example
+
+```bash
+$ ./1-hello_you
+hello julien
+
+
 ### Notes
 
 - This task is purely educational, showing how aliases can override existing commands.
