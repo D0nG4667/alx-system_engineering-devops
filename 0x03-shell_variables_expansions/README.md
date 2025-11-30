@@ -191,6 +191,23 @@ $ ./9-divide_and_rule
 1337
 ```
 
+## Task 11: There are 10 types of people in the world
+
+**File:** `11-binary_to_decimal`
+
+### Task 11: Description
+
+Script that converts a number from base 2 to base 10.  
+The number in base 2 is stored in the environment variable `BINARY`.
+
+### Task 11: Example
+
+```bash
+$ export BINARY=10100111001
+$ ./11-binary_to_decimal
+1337
+```
+
 ### Notes
 
 - This task is purely educational, showing how aliases can override existing commands.
