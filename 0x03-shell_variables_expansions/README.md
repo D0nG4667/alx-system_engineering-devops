@@ -208,6 +208,33 @@ $ ./11-binary_to_decimal
 1337
 ```
 
+## Task 12: Combination
+
+**File:** `12-combinations`
+
+### Task 12: Description
+
+Script that prints all possible combinations of two lowercase letters, except `oo`.  
+One combination per line, alpha ordered, starting with `aa`.
+
+### Task 12: Example
+
+```bash
+$ ./12-combinations | wc -l
+675
+$ ./12-combinations | tail -303 | head -10
+oi
+oj
+ok
+ol
+om
+on
+op
+oq
+or
+os
+```
+
 ### Notes
 
 - This task is purely educational, showing how aliases can override existing commands.
