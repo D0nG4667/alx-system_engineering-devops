@@ -122,6 +122,24 @@ LOGNAME=julien
 ...
 ```
 
+---
+
+## Task 6: Local variable
+
+**File:** `6-create_local_variable`
+
+### Task 6: Description
+
+Script that creates a new local variable named `BEST` with the value `School`.
+
+### Task 6: Example
+
+```bash
+$ source ./6-create_local_variable
+$ echo $BEST
+School
+```
+
 ### Notes
 
 - This task is purely educational, showing how aliases can override existing commands.
