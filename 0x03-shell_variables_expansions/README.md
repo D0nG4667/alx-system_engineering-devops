@@ -284,6 +284,27 @@ $ ./100-decimal_to_hexadecimal
 f
 ```
 
+## Task 15: Everyone is a proponent of strong encryption
+
+**File:** `101-rot13`
+
+### Task 15: Description
+
+Script that encodes and decodes text using ROT13 encryption.  
+Assumes ASCII input.
+
+### Task 15: Example
+
+```bash
+$ cat quote
+"Everyone is a proponent of strong encryption."
+- Dorothy E. Denning
+
+$ ./101-rot13 < quote
+"Rirelbar vf n cebcbarag bs fgebat rapelcgvba."
+- Qbebgul R. Qraavat
+```
+
 ### Notes
 
 - This task is purely educational, showing how aliases can override existing commands.
