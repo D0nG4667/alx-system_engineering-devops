@@ -259,6 +259,31 @@ $ ./13-print_float
 3.14
 ```
 
+## Task 14: Decimal to Hexadecimal
+
+**File:** `100-decimal_to_hexadecimal`
+
+### Task 14: Description
+
+Script that converts a number from base 10 to base 16.  
+The number in base 10 is stored in the environment variable `DECIMAL`.
+
+### Task 14: Example
+
+```bash
+$ export DECIMAL=16
+$ ./100-decimal_to_hexadecimal
+10
+
+$ export DECIMAL=1337
+$ ./100-decimal_to_hexadecimal
+539
+
+$ export DECIMAL=15
+$ ./100-decimal_to_hexadecimal
+f
+```
+
 ### Notes
 
 - This task is purely educational, showing how aliases can override existing commands.
