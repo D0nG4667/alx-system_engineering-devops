@@ -305,6 +305,34 @@ $ ./101-rot13 < quote
 - Qbebgul R. Qraavat
 ```
 
+## Task 16: The eggs of the brood need to be an odd number
+
+**File:** `102-odd`
+
+### Task 16: Description
+
+Script that prints every other line from the input, starting with the first line.
+
+### Task 16: Example
+
+```bash
+$ ls -1 | ./102-odd
+bin
+dev
+home
+lib
+lib64
+lost+found
+mnt
+proc
+run
+srv
+t
+t~
+usr
+vmlinuz
+```
+
 ### Notes
 
 - This task is purely educational, showing how aliases can override existing commands.
