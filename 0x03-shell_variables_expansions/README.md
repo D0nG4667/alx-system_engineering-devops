@@ -333,6 +333,26 @@ usr
 vmlinuz
 ```
 
+## Task 17: I'm an instant star. Just add water and stir.
+
+**File:** `103-water_and_stir`
+
+### Task 17: Description
+
+Script that adds the two numbers stored in the environment variables `WATER` and `STIR`.  
+- `WATER` is in base water.  
+- `STIR` is in base stir.  
+- The result is printed in base bestchol.
+
+### Task 17: Example
+
+```bash
+$ export WATER="ewwatratewa"
+$ export STIR="ti.itirtrtr"
+$ ./103-water_and_stir
+shtbeolhc
+```
+
 ### Notes
 
 - This task is purely educational, showing how aliases can override existing commands.
